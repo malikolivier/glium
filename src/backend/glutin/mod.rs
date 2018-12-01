@@ -10,8 +10,6 @@ Only available if the 'glutin' feature is enabled.
 */
 pub extern crate glutin;
 
-pub mod headless;
-
 use {Frame, IncompatibleOpenGl, SwapBuffersError};
 use debug;
 use context;
